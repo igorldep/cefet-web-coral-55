@@ -124,17 +124,29 @@ article {
 
 /* EXERCÍCIO 7: o ticket */
 #ticket {
+  left: -89px;
+  top: 50%;
+  width: 188px;
+  height: 84px;
+  transition: left 100ms ease-out;
+  position: fixed;
 }
 
 #ticket:hover {
+  left: 0;
 }
 
 
 /* EXERCÍCIO 8: deslocamento no siri e peixe */
 #siri {
+  position: relative;
+  left: -10px;
+  padding-top: 17px;
 }
 
 #peixe {
+  position: relative;
+  left: -44px;
 }
 
 /* EXERCÍCIO 9: bolhas - no HTML e no JS */
