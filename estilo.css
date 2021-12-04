@@ -38,27 +38,36 @@ strong {
 
 /* EXERCÍCIO 2: layout da página */
 #recipiente {
-  /* layout da página aqui */
-  /* ... */
-  /* ... */
-  /* ... */
-  /* ... */
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height:100vh;
+  display: grid;
+  grid-template-rows: 80px auto 100px;
+  grid-template-columns: 180px 1fr;
 }
 
 #cabecalho-pagina {
-
+  grid-row: 1/2;
+  grid-column: 2/3;
 }
 
 #lateral {
-
+  grid-row: 1/4;
+  grid-column: 1/2;
 }
 
 #cardapio {
 
+  margin:0;
+  padding: 0 10px;
+  grid-row: 2/3;
+  grid-column: 2/3;
 }
 
 #rodape-pagina {
-
+  grid-row: 3/4;
+  grid-column: 2/3;
 }
 
 
