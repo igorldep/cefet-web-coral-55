@@ -94,11 +94,19 @@ strong {
 
 /* EXERCÍCIO 4: cada item do menu */
 article {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
 }
 
 
 /* EXERCÍCIO 5: o rodapé */
 #rodape-pagina {
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 25px;
+  padding-right: 15px;
+  justify-content: flex-end;
 }
 
 /* EXERCÍCIO 6: lateral */
