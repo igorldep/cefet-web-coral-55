@@ -3,6 +3,16 @@
 @import "./fonts/ravie.css";
 @import "./fonts/verdana.css";
 
+@media (prefers-color-scheme: light) {
+  :root {
+      --cor-do-texto: rgb(255, 11, 11);
+      /* ... */
+  }
+  body {
+      background-color: #fff;
+  }
+}
+
 body {
   background-color: #fff;
 }
