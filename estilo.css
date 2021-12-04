@@ -15,6 +15,7 @@ strong {
   background-image: linear-gradient(to bottom, #f6f1b2, #4599b2 80%);
   border-left: 1px solid #d3d3d3;
   border-right: 1px solid #d3d3d3;
+  font-family: Verdana;
 }
 
 #cardapio {
@@ -33,6 +34,10 @@ strong {
 #cardapio article {
   font-size: 14px;
   color: #333;
+}
+
+#cabecalho-pagina h1 {
+  font-family: Ravie;
 }
 
 
@@ -111,6 +116,9 @@ article {
 
 /* EXERCÍCIO 6: lateral */
 #lateral {
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
 }
 
 
