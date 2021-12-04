@@ -40,11 +40,11 @@ strong {
 #recipiente {
   margin-left: auto;
   margin-right: auto;
+  display: grid;
   width: 800px;
   height:100vh;
-  display: grid;
-  grid-template-rows: 80px auto 100px;
   grid-template-columns: 180px 1fr;
+  grid-template-rows: 80px auto 100px;
 }
 
 #cabecalho-pagina {
@@ -58,9 +58,8 @@ strong {
 }
 
 #cardapio {
-
-  margin:0;
   padding: 0 10px;
+  margin:0;
   grid-row: 2/3;
   grid-column: 2/3;
 }
@@ -78,6 +77,7 @@ strong {
 }
 
 #cabecalho-pagina h1 {
+  text-align:center;
   margin: 0;
   font-size: 36px;
   color: #e90c0c;
@@ -85,6 +85,7 @@ strong {
 }
 
 #cabecalho-pagina h2 {
+  text-align:end;
   margin: 0;
   font-size: 24px;
   color: #333;
