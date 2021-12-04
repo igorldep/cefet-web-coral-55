@@ -5,7 +5,7 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-      --cor-do-texto: rgb(255, 11, 11);
+      --cor-do-texto: rgb(255, 121, 11);
       /* ... */
   }
   body {
